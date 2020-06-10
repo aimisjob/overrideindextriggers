@@ -2,7 +2,7 @@ pipeline{
  agent any
  options{
   timestamps()
-  overrideindextriggers(true)
+  //overrideindextriggers(true)
   }
   stages{
    stage('build'){
