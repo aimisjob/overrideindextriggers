@@ -1,7 +1,7 @@
 pipeline{
  agent any
  options{
-  timestamps()
+    timestamps()
     overrideIndexTriggers(true)
   }
   stages{
