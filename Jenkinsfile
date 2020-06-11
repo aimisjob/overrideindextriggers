@@ -2,13 +2,13 @@ pipeline{
  agent any
  options{
     timestamps()
-    overrideIndexTriggers(true)
+    overrideIndexTriggers(false)
   }
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-true'
+       echo 'helloworld-false'
     }
-   }
+  
   }
  }
