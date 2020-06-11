@@ -7,7 +7,7 @@ pipeline{
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-tr'
+       echo 'helloworld-concept'
     }
    }
   }
