@@ -7,7 +7,7 @@ pipeline{
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-false'
+       echo 'helloworld-pra'
     }
   
   }
