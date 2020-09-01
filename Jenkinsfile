@@ -7,7 +7,7 @@ pipeline{
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-perseverence-willssvvvnnn'
+       echo 'helloworld-perseverence-will'
     }
   
   }
