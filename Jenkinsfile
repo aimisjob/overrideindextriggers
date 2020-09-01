@@ -7,7 +7,7 @@ pipeline{
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-aimsall'
+       echo 'helloworld-aimsallnew'
     }
   
   }
