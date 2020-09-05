@@ -7,7 +7,7 @@ pipeline{
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-perseverence-imp'
+       echo 'helloworld-perseverence is the key'
     }
   
   }
