@@ -7,7 +7,7 @@ pipeline{
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-perseverence is the key for job-6'
+       echo 'helloworld-perseverence is the key for job-7'
     }
   
   }
