@@ -2,12 +2,12 @@ pipeline{
  agent any
  options{
     timestamps()
-     overrideIndexTriggers(false)
+     overrideIndexTriggers(true)
   }
   stages{
    stage('build'){
      steps{
-       echo 'helloworld-perseverence is the key for job-3'
+       echo 'helloworld-perseverence is the key for job-4'
     }
   
   }
